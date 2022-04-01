@@ -1,0 +1,101 @@
+body{
+    background-image: url(image/sky.jpg);
+    margin: auto;
+    width: 95%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(224, 14, 14);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(114, 2, 2);
+}
+h1 {
+  outline: 5px solid rgb(0, 0, 0);
+}
+
+ul {
+  border: 2px solid rgb(0, 0, 0);
+}
+h2 {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+footer {
+  margin-left: 40%;
+  margin-right: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+img {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid rgb(0, 0, 0);
+}
+ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(224, 14, 14);
+}
+ul2 {
+  border: 2px solid rgb(0, 0, 0);
+}
+ul2{
+  display: inline-block;
+  margin: auto;
+}
+p {
+  font-size: x-large;
+}
+summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: rgba(255, 0, 0, 0.678);
+  color: #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+a {
+  size: 500px;
+}
